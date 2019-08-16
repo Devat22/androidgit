@@ -23,13 +23,14 @@ fun main() {
 //         b
 //    }
 //    println(returnValue)
-    var number = 5
+    var number = 8
     var numberProvided:String = when(number){
         1->"one"
         2->"two"
         3->"three"
         4->"four"
         5->"five"
+        8->"eight"
         else -> "invalid number"
     }
     println("You provided $numberProvided")
